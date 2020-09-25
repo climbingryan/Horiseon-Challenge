@@ -15,6 +15,23 @@ p {
     font-size: 16px;
 }
 
+    /* header styles */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+    /* header title */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+    /* changes color of a few letters in logo */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
     /* Positioning classes */
 .float-left {
     float: left;
@@ -25,25 +42,8 @@ p {
     margin-left: 25px;
 }
 
-        /* header styles */
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-    /* header title */
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-    /* changes color of a few letters in logo */
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
         /* navigation styling */
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,11 +51,11 @@ p {
     font-size: 20px;
 }
     /* gets rid of list dots */
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
     /* nav positioning */
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
