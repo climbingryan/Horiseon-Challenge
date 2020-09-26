@@ -8,4 +8,4 @@ html & css with descriptive comments with easy to read code
 ## Git Hub Pages Link
 - https://climbingryan.github.io/Horiseon-Challenge/
 
-![Screenshot](/assets/images/screenshot)
+![Screenshot](/Develop/assets/images/screenshot)
